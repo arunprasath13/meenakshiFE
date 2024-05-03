@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --blue-color: #007bff;
+}
+.main-page {
+  display: flex;
+  height: 100vh; 
+}
+
+.left {
+  width: 50%;
+  overflow: hidden;
+}
+
+.right {
+  width: 50%;
+  overflow: hidden;
+  /* background-color: gray; */
+}
+
+.right{
+  padding:100px;
+}
+
+.form__header{
+  font-size: 2.5rem;
+}
+
+.form__para{
+  font-size:1.1rem;
+  margin-top: 10px;
+  color:gray
+}
+
+.form__box{
+  margin-top: 20px;
+}
+
+input{
+  width:100%;
+  padding:15px 20px;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 5px;
+  border: 1px solid black
+}
+
+label{
+  font-size:1.2rem;
+}
+.email__box{
+  margin-top:30px;
+}
+
+.password__box{
+  margin-top: 30px;
+}
+
+.forgot__link{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.btn{
+  width: 100%;
+  margin-top: 40px;
+  padding:15px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  border: none;
+  background-color: var(--blue-color);
+  cursor: pointer;
+}
+
+
