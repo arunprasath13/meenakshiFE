@@ -41,7 +41,7 @@ const ForgotPassword = () => {
           style={{ marginTop: "40px", textAlign: "center" }}
         >
           <p>
-            Already have an account? <Link to="/auth/login">Continue</Link>
+            Already have an account? <Link to="/">Continue</Link>
           </p>
         </div>
       </form>
